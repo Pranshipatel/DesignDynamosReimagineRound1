@@ -116,7 +116,7 @@ nav .social-div h5{
         margin-right: 7vw;
     }
     nav a{
-        font-size: 1.3vw;
+        font-size: 1.4vw;
     }
     
     nav .social-div{
@@ -273,7 +273,15 @@ nav .social-div h5{
 }
 
 @media (max-width:768px){
-
+    #behindmouse{
+        display: none;
+    }
+    nav .social-div h5{
+        font-size: 2.2vw;
+    }
+    nav a{
+        font-size: 2.3vw;
+    }
     .page1{
         height: 30vh;
     }
@@ -281,6 +289,9 @@ nav .social-div h5{
         width: 100vw;
         height: 90vh;
         gap: 1vw;
+    }
+    .play-btn{
+        display: none;
     }
     
     .page2 .img1{
@@ -314,10 +325,10 @@ nav .social-div h5{
         gap: 2vw;
     }
     .page2 h1{
-        font-size: 1.2vw;
+        font-size: 2vw;
     }
     .play-btn{
-        font-size: 1vw;
+        display: none;
     }
     
     .page2 .img1{
@@ -418,40 +429,45 @@ nav .social-div h5{
 @media (max-width:768px){
     .page3{
         width: 100vw;
-        height: 80vh;
+        height: 50vh;
         display: flex;
         align-items: center;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-between;
     }
-    
+    .page3Head h1{
+        font-size: 4.4vw;
+    }
     .swiper {
+        margin-top: 7vw;
         width: 100%;
-        height: 50%;
+        height: 100%;
         margin-bottom: 2vw;
     }
+    .swiper-slide{
+        width: 65vw !important;
+    }
     .swiper-slide h1{
-        font-size: 1.4vw;
+        font-size: 2vw;
     }
 }
 
 @media (max-width:568px){
     .page3{
         width: 100vw;
-        height: 40vh;
         display: flex;
         align-items: center;
         flex-direction: column;
         justify-content: space-around;
     }
     
+    
     .swiper {
         width: 100%;
-        height:40%;
         margin-bottom: 2vw;
     }
     .swiper-slide h1{
-        font-size: 1.4vw;
+        font-size: 2vw;
     }
 }
 
@@ -573,7 +589,7 @@ nav .social-div h5{
     }
 
     .image-div h2{
-        font-size: 1.1vw;
+        font-size: 2.2vw;
         margin-top: 0.9vw;
     }
     .smooth-scroll .image-div #img2{
@@ -597,6 +613,9 @@ nav .social-div h5{
     .smooth-scroll{
         width: 100vw;
         height: 70vh;
+    }
+    .smooth-scroll .heading h1{
+        font-size: 7vw;
     }
     .smooth-scroll .image-div{
         margin-top: 5vw;
@@ -918,6 +937,15 @@ nav .social-div h5{
         width: 100vw;
         height: fit-content;
     }
+    #page9 h1{
+        font-size: 7vw;
+    }
+    #page9 h5{
+        font-size: 2vw;
+        line-height: 2vw;
+    }
+
+
 
     #page9 #text{
         height: 10vh;
