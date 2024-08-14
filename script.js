@@ -143,7 +143,6 @@ loco();
 function cursor(){
   
   Shery.mouseFollower({
-    //Parameters are optional.
     skew: true,
     ease: "cubic-bezier(0.23, 1, 0.320, 1)",
     duration: 1,
@@ -165,8 +164,6 @@ function cursor(){
       })
 
       gsap.to("#play-btn",{
-          // left:"70%",
-          // top:"-5%",
           opacity:0
       })
   })

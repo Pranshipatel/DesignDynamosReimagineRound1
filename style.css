@@ -27,7 +27,7 @@ box-sizing:border-box;
 html,body{ 
 width:100%; 
 height:100%; 
-
+cursor: none;
 }
 
 
@@ -279,24 +279,25 @@ nav .social-div h5{
     }
     .page2{
         width: 100vw;
-        height: 80vh;
+        height: 90vh;
         gap: 1vw;
     }
     
     .page2 .img1{
-        width: 20vw;
-        height: 35vh ;
+        display: none;
     }
     
     .page2 .img2{
-        width: 17vw;
-        height: 32vh ;
-        margin-bottom: 0vw;
+        display: none;
     }
     
     .page2 .img3{
-        width: 8vw;
-        height: 10vh ;
+        display: none;
+    }
+
+    .page2 .page2-vd{
+        width: 75%;
+        height: 100%;
     }
     
 }
@@ -309,7 +310,7 @@ nav .social-div h5{
     }
     .page2{
         width: 100vw;
-        height: 60vh;
+        height: 100vh;
         gap: 2vw;
     }
     .page2 h1{
@@ -322,12 +323,14 @@ nav .social-div h5{
     .page2 .img1{
         width: 20vw;
         height: 16vh ;
+        display: none;
     }
     
     .page2 .img2{
         width: 17vw;
         height: 17vh ;
         margin-bottom: 0vw;
+        display: none;
     }
     
     .page2 .img3{
@@ -336,8 +339,8 @@ nav .social-div h5{
         display: none;
     }
     .page2 .page2-vd{
-        width: 55%;
-        height: 90%;
+        width: 75%;
+        height: 100%;
     }
     
 }
